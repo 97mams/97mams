@@ -1,4 +1,4 @@
-module.exports = `# 👋 Hi, I'm [Mamisoa Ratsimbarison]
+export const readme = `# 👋 Hi, I'm [Mamisoa Ratsimbarison]
 
 ### Passionate Junior Developer
 
