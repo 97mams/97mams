@@ -2,18 +2,18 @@ import { writeFileSync } from 'node:fs'
 // const { fs } = require('node:fs')
 import { readme } from "./readme.js"
 
+const today = new Date()
+
+const getFramwork = (framework) => {
+    return today.getDay() % 2 === 0 ? "Laravel" : "Symfony";
+}
+
 const generateNewReadme = () => {
-    const readmeRow = readme.split('\n');
-
-    const updateIdentifier = (identifier, reaplaceText) => {
-        const identifierIndex = findIdentifierIndex
-    }
+    return readme.replace("<#framwork_php>", getFramwork())
 }
 
+console.log(generateNewReadme());
 
-const findIdentifierIndex = (rows, identifier) => {
-    return rows.findIndex(row => Boolean(row.match(new RegExp(`<#${framework_php}>`, 'i'))));
-}
 
 
 const updateReadme = text => writeFileSync('./README.md', text);
