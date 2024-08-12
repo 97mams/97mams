@@ -32,4 +32,4 @@ jobs:
           signoff: false
           message: ':memo: README.md updated by Gibot'
         env:
-          GITHUB_TOKEN: ${{ mbola alaina izao }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
