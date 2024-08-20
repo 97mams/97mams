@@ -26,8 +26,8 @@
 ### Github stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=97mams&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=97mams&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
-![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=97mams&theme=tokyonight&hide_border=true)
+<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=97mams&theme=tokyonight&show_icons=true&hide_border=true&layout=compact) -->
+<!-- ![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=97mams&theme=tokyonight&hide_border=true) -->
 
 ---
 
