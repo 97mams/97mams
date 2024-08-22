@@ -5,7 +5,7 @@ import { readme } from "./readme.js"
 const today = new Date()
 
 const getFramwork = (framework) => {
-    return today.getDay() % 2 === 0 ? "Laravel" : "Symfony";
+    return today.getDay() % 2 === 0 ? "Symfony" : "Laravel";
 }
 
 const generateNewReadme = () => {
