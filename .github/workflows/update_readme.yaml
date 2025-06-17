@@ -1,35 +1,36 @@
-name : Update README all day at 04:04
+name: Update README with Node.js
 
 on:
-  push:
-  workflow_dispatch:
   schedule:
-    - cron: '03 4 * * *'
+    - cron: '0 6 * * *'  # Tous les jours à 6h UTC
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  run-node-script:
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: Update README.md file
+          node-version: '20'  # ou ta version préférée
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Node.js script
+        run: node readme.js
+
+      - name: Commit changes
         run: |
-          node index.js > README.md
-        env:
-          CI: true
-      - name: commit changes
-        uses: EndBug/add-and-commit@v4
-        with:
-          author_name: 97mams
-          author_email: 97mams@gmail.com
-          force: false
-          signoff: false
-          message: ':memo: README.md updated by Gibot'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "chore: update README via Node.js script" || echo "No changes to commit"
+          git push origin HEAD:main
