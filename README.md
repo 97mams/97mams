@@ -1,33 +1,42 @@
-# 👋 Hi, I'm [Mamisoa Ratsimbarison]
+# Hi there, I'm [Mamisoa Ratsimbarison]👋
 
-### Passionate Junior Developer
 
----
+## 🚀 Web Developer | Passionate Problem Solver
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+I'm a **web developer** who loves turning ideas into fast, clean, and scalable applications. I enjoy working across the full stack, crafting smooth user experiences, and building solid backend architectures.
 
 ---
 
-### About Me
+## 🧰 Tech Stack
 
-- 🌱 I’m currently learning **Next.js**
-- 💻 I love coding in **PHP**
-- 🎓 Always eager to learn and improve
+### **Frontend & Full‑Stack**
+
+* **Next.js** (my go‑to framework)
+* **TypeScript**
+
+### **Backend & Databases**
+
+* **Prisma** ORM
+* **MySQL**
+* **Symfony** (my favorite PHP framework)
+* And yes… I still enjoy writing **pure PHP** when needed 😄
 
 ---
 
-### Skills
+## ❤️ What I Love
 
-- **Programming Languages:** PHP, JavaScript
-- **Frameworks and Libraries:** Next.js, React, Laravel
-- **Development Tools:** Git, VS Code
+* Designing clean architectures
+* Working with strong typing (TS supremacy!)
+* Building APIs that feel good to consume
+* Learning, improving, and exploring new technologies
 
-### Github stats
+---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=97mams&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=97mams&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
-![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=97mams&theme=tokyonight&hide_border=true)
+## 📈 Current Goals
+
+* Leveling up my full‑stack skills
+* Contributing to open‑source projects
+* Building more personal projects with modern stacks
 
 ---
 
